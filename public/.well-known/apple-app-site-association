@@ -3,10 +3,7 @@
     "details": [
       {
         "appID": "P47BCT8X5B.com.viralview.app",
-        "paths": [
-            "/tiktok/callback",
-            "/path/to/your/app/*"
-        ]
+        "paths": ["/", "/*"]
       }
     ]
   }
