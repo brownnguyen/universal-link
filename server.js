@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script>
           window.onload = function() {
-            const url = 'myapp://login?code=${code}&state=${state ?? ''}';
+            const url = 'viralviewScheme://login?code=${code}&state=${state ?? ''}';
             window.location.href = url;
           };
         </script>
