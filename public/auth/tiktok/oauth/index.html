@@ -9,21 +9,17 @@
   <p>Redirecting...</p>
 
   <script>
-    // Lấy tham số từ URL
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
     const state = urlParams.get('state') || '';
 
-    // Kiểm tra nếu code có trong URL
     if (!code) {
       alert('Missing code');
       throw new Error('Missing code');
     }
 
-    // Tạo URL của app để chuyển hướng
     const redirectUrl = `viralviewscheme://login?code=${code}&state=${state}`;
     
-    // Thực hiện chuyển hướng đến URL của app
     window.location.href = redirectUrl;
   </script>
 </body>
