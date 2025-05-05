@@ -19,7 +19,7 @@
 
     const redirectUrl = `viralviewscheme://login?code=${encodeURIComponent(code)}&state=${encodeURIComponent(state)}`;
     
-    window.location.replace(redirectUrl);
+    window.location.href = redirectUrl;
   </script>
 </body>
 </html>
