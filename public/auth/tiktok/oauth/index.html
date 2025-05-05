@@ -9,6 +9,7 @@
   <p>Redirecting...</p>
 
   <script>
+    alert(`Redirecting to`);
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
     const state = urlParams.get('state') || '';
@@ -19,7 +20,8 @@
     }
 
     const redirectUrl = `viralviewscheme://login?code=${code}&state=${state}`;
-    console.log(redirectUrl);
+    alert(`Redirecting to ${redirectUrl}`);
+    
     window.location.href = redirectUrl;
     console.log(window.location.href);
   </script>
