@@ -3,7 +3,7 @@
     "details": [
       {
         "appID": "P47BCT8X5B.com.viralview.app",
-        "paths": ["/", "/*"]
+        "paths": ["/auth/tiktok/oauth", "/*"]
       }
     ]
   }
