@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "viralview",
+        "package_name": "com.viralview.app",
+        "sha256_cert_fingerprints": [
+          "19F893B01000CD13346779475255C25F8DE5F8CDD7FFA070A68F7B6EC52B6F4E"
+        ]
+      }
+    }
+  ]
+  
