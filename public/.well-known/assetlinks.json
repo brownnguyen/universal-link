@@ -2,7 +2,7 @@
     {
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
-        "namespace": "com.viralview.app",
+        "namespace": "android_app",
         "package_name": "com.viralview.app",
         "sha256_cert_fingerprints": [
           "19:F8:93:B0:10:00:CD:13:34:67:79:47:52:55:C2:5F:8D:E5:F8:CD:D7:FF:A0:70:A6:8F:7B:6E:C5:2B:6F:4E"
