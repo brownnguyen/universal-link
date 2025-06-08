@@ -17,7 +17,7 @@
       throw new Error('Missing code');
     }
 
-    const redirectUrl = `viralviewscheme://login?code=${encodeURIComponent(code)}&state=${encodeURIComponent(state)}`;
+    const redirectUrl = `viralviewscheme://oauth?code=${encodeURIComponent(code)}&state=${encodeURIComponent(state)}`;
     
     window.location.href = redirectUrl;
   </script>
